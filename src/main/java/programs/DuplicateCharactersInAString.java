@@ -8,7 +8,7 @@ public class DuplicateCharactersInAString {
 		 for(int i=0;i<str.length();i++) {
 			 for(int j=i+1;j<str.length();j++)
 			 if(ch[i]==ch[j]) {
-				System.out.println("duplicate characters are    "+ch[j]);
+				System.out.println("duplicate characters are    "+ch[i]);
 				break;
 			 }
 		 }
