@@ -6,8 +6,8 @@ public class StringReverseWithSplit {
 		 String str= "krishna mohan";
 		 String[] words = str.split(" ");
 		 String revString="";
-		 
-		 //str.length()  is predefined method of string class,
+		 //split will divide from where space are availble and rerun and array if u put a (str.split("a")).then it will divide the string into an array
+		//str.length()  is predefined method of string class,
 		 // which returns the number of characters in the string
 		 //words.length is predefined variable,
 		 // which returns the size of an array
