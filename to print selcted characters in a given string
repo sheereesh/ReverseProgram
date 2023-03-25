@@ -1,0 +1,21 @@
+public class Practice9999 {
+
+	public static void main(String[] args) {
+		String str="AHCECLWLXO";
+	char[]	word=str.toCharArray();
+	
+	for(int i=1;i<word.length;i+=2) {
+	
+		System.out.println(word[i]);
+	}
+
+	}
+
+}
+
+H
+E
+L
+L
+O
+
